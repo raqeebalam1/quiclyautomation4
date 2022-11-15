@@ -55,7 +55,7 @@ class BasePage:
                 chrome_options.add_argument("--headless")
         caps = selenium.webdriver.DesiredCapabilities.CHROME.copy()
         caps.update(env.get_config_value('webdriver', 'desired_capabilities'))
-        driver = selenium.webdriver.Chrome(options=chrome_options, desired_capabilities=caps, executable_path="/root/Desktop/chromedriver_linux64/")
+        driver = selenium.webdriver.Chrome(options=chrome_options, desired_capabilities=caps, executable_path="/root/Desktop/chromedriver_linux64/chromedriver")
         driver.maximize_window()
         driver.implicitly_wait(20)
         driver.set_page_load_timeout(cls.page_load_timeout)
