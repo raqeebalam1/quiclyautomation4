@@ -45,6 +45,23 @@ class BasePage:
         """
         self.driver = driver
 
+    # @classmethod
+    # def get_browser_instance(cls):
+    #     chrome_options = selenium.webdriver.ChromeOptions()
+    #     for c in env.get_config_value('webdriver', 'options'):
+    #         chrome_options.add_argument(c)
+    #         chrome_options.add_argument("--no-sandbox")
+    #         if os.environ.get('HEADLESS', False):
+    #             chrome_options.add_argument("--headless")
+    #     caps = selenium.webdriver.DesiredCapabilities.CHROME.copy()
+    #     caps.update(env.get_config_value('webdriver', 'desired_capabilities'))
+    #     driver = selenium.webdriver.Chrome(options=chrome_options, desired_capabilities=caps, executable_path="/root/Downloads/geckodriver")
+    #     driver.maximize_window()
+    #     driver.implicitly_wait(20)
+    #     driver.set_page_load_timeout(cls.page_load_timeout)
+    #     driver.set_script_timeout(cls.page_load_timeout)
+    #     return driver
+
     @classmethod
     def get_browser_instance(cls):
         chrome_options = selenium.webdriver.ChromeOptions()
@@ -55,13 +72,13 @@ class BasePage:
                 chrome_options.add_argument("--headless")
         caps = selenium.webdriver.DesiredCapabilities.CHROME.copy()
         caps.update(env.get_config_value('webdriver', 'desired_capabilities'))
-        driver = selenium.webdriver.Chrome(options=chrome_options, desired_capabilities=caps, executable_path="/root/Downloads/geckodriver")
+        driver = selenium.webdriver.Chrome(options=chrome_options, desired_capabilities=caps)
         driver.maximize_window()
         driver.implicitly_wait(20)
         driver.set_page_load_timeout(cls.page_load_timeout)
         driver.set_script_timeout(cls.page_load_timeout)
         return driver
-
+        
     def capture_screen_shot(self):
         if not os.path.exists('screenshots'):
             os.makedirs('screenshots')
