@@ -1,0 +1,8 @@
+.idea/
+*.png
+screenshots/
+assets/
+drivers/
+*.pyc
+*.html
+venv/

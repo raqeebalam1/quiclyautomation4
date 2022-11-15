@@ -1,0 +1,13 @@
+lxml~=4.6.2
+psutil~=5.8.0
+locust
+pexpect~=4.8.0
+pytest
+PyAutoIt
+pyperclip
+requests~=2.25.1
+selenium
+pyyaml~=5.4.1
+flask
+scipy
+pytest-html

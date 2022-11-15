@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <department>
+        <item name="60070"> Departments: </item>
+        <description>
+            Grocery
+            Food
+            Roti kit
+            Catering
+            Organic Grocery
+            Meal Basket
+            Tiffin Services
+            Meal Kit
+            Instant Pot Kit
+            Recipes
+        </description>
+    </department>
+
+        <department>
+        <item name="60068"> Departments: </item>
+        <description>
+            grocery
+            food
+            Roti kit
+            Catering
+            Organic Grocery
+            Meal Basket
+            Tiffin Services
+            Meal Kit
+            Instant Pot Kit
+            Recipes
+        </description>
+    </department>
+
+            <department>
+        <item name="94020"> Departments: </item>
+        <description>
+            grocery
+            food
+            Roti kit
+            Catering
+            Organic Grocery
+            Tiffin Services
+            Meal Kit
+            Instant Pot Kit
+            Recipes
+        </description>
+    </department>
+
+            <department>
+        <item name="94028"> Departments: </item>
+        <description>
+            grocery
+            food
+            Roti kit
+            Catering
+            Organic Grocery
+            Tiffin Services
+            Meal Kit
+            Instant Pot Kit
+            Recipes
+        </description>
+    </department>
+
+                <department>
+        <item name="10001"> Departments: </item>
+        <description>
+            grocery
+            food
+            Tiffin Services
+            Catering
+            Meal Basket
+            Nationwide Shop
+            Recipes
+        </description>
+    </department>
+
+
+                <department>
+        <item name="10004"> Departments: </item>
+        <description>
+            grocery
+            food
+            Roti kit
+            Catering
+            Organic Grocery
+            Tiffin Services
+            Meal Kit
+            Instant Pot Kit
+            Recipes
+        </description>
+    </department>
+</metadata>

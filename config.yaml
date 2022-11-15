@@ -1,0 +1,14 @@
+webdriver:
+  desired_capabilities:
+    acceptInsecureCerts: True
+  options: [ --allow-running-insecure-content, --ignore-certificate-errors , ]
+
+
+
+portal_ui:
+
+#  base_url: http://www.uat.goquicklly.com/
+  base_url: http://www.quicklly.com/
+  admin_user: Excellence Delivered
+  admin_password: 1234
+
