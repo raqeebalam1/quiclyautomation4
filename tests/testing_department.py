@@ -15,6 +15,7 @@ class TesDEPARTMENT(ui_test_class.UVIIClass):
     actual2 = "Your Account"
     actual3 = "Search for products..."
     actual4 = "Sauces"
+    actual5  "ac"
 
     @classmethod
     def setUpClass(cls):
